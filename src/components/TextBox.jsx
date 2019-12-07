@@ -47,6 +47,7 @@ const TextBox = ({ onSubmit }) => {
         >
             <Input
                 type="text"
+                placeholder="Write my essay..."
                 value={value}
                 onChange={e => setValue(e.target.value)}
             />
