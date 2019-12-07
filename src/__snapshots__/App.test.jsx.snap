@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-EHOje hvZzXo"
+>
+  <div
+    className="sc-bZQynM lmNpJD"
+  >
+    <h1
+      className="sc-bdVaJa cFyDJK"
+    >
+      My Todo List
+    </h1>
+    <form
+      className="sc-bwzfXH dwmJYO"
+      onSubmit={[Function]}
+    >
+      <input
+        className="sc-htpNat gkSUiR"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <input
+        className="sc-bxivhb kkSQTW"
+        type="submit"
+        value="Add Todo"
+      />
+    </form>
+  </div>
+</div>
+`;
