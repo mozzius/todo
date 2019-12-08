@@ -33,13 +33,13 @@ function App() {
             <Container>
                 <Header />
                 <TextBox onSubmit={todo => {
-                    setTodos([todo, ...todos])
+                    setTodos([{text: todo, time: Date.now()}, ...todos])
                 }} />
                 {todos.map((todo, index) => {
                     return (
                         <Todo
-                            key={`todo-${index}`}
-                            value={todo}
+                            key={todo.time}
+                            value={todo.text}
                             deleteTodo={() => deleteTodo(index)}
                         />
                     )
